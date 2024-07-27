@@ -91,3 +91,33 @@ To https://github.com/GitSiddharth/mlproject.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
 PS D:\Moon\machineL>
+PS D:\Moon\machineL> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   sid.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\Moon\machineL> git add .
+PS D:\Moon\machineL> git commit -m "edited sid.txt"
+[main cc9e3f0] edited sid.txt
+ 1 file changed, 93 insertions(+)
+PS D:\Moon\machineL> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS D:\Moon\machineL> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.18 KiB | 1.18 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/GitSiddharth/mlproject.git
+   f70c89a..cc9e3f0  main -> main
+PS D:\Moon\machineL>
